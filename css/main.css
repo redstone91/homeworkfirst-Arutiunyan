@@ -1,0 +1,334 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+* {
+	box-sizing: border-box;
+}
+
+ul,li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+
+	font-weight: 800;
+	font-size: 30px;
+	line-height: 37px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #304041;
+	margin: 0;
+
+
+}
+
+a {
+	text-decoration: none;
+
+}
+
+
+p {
+	margin: 0;
+}
+
+.container {
+
+	width: 1140px;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+.header {
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0) 1.39%, rgba(54, 207, 255, 0.23) 44.44%), url('../image/la.png') no-repeat center top ;
+text-align: center;
+padding: 90px 0 79px;
+}
+
+
+
+
+.logo {
+	text-decoration: none;
+	display: inline-flex;
+	
+
+
+
+
+
+}
+
+
+.logo__text {
+	margin-left: 9px;
+	font-style: normal;
+	font-weight: 500;
+	color: #fff;
+
+}
+
+.offer__subtitle {
+
+font-weight: 800;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+background: #FFFFFF;
+border-radius: 78px;
+padding: 8px 17px;
+width: 239px;
+margin: 0 auto;
+margin-top: 201px;
+}
+
+
+.offer__title {
+
+font-style: normal;
+font-weight: 800;
+font-size: 60px;
+text-align: center;
+letter-spacing: 0.145em;
+text-transform: uppercase;
+margin: 32px 0 24px;
+color: #FFFFFF;
+line-height: 73px;
+}
+
+
+.offer__text{
+
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.05em;
+margin-bottom:  42px;
+color: #fff;
+
+}
+
+
+.offer__btn {
+
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.05em;
+background: #FF7E36;
+border-radius: 119px;
+padding: 18px 52px;
+color: #fff;
+
+}
+
+
+.arrow-down {
+
+background: url(../image/arrow-down.svg) no-repeat;
+width: 18px;
+height: 27px;
+display: block;
+margin: 239px auto 0px;
+
+
+}
+
+.arrow-down:hover {
+ opacity: 0.5;
+transition: all 0.5s ease;
+}
+
+
+.section-title {
+
+font-size: 30px;
+text-align: center;
+padding: 143px 0px 0px;
+margin-bottom: 93px;
+
+
+}
+
+
+.destination {
+
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 90px;
+
+}
+
+.destination__number {
+
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 15px;
+}
+
+
+.destination__content {
+	background: #E2F8FF;
+	padding: 112px 78px 112px 73px;
+    width: 672px;
+
+
+}
+
+.destination__title {
+
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #304041;
+margin: 20px 0 40px;
+}
+
+
+
+
+.destination__desc {
+
+width: 521px;
+left: 0px;
+top: 107px;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 23px;
+letter-spacing: 0.05em;
+color: #304041;
+margin-bottom: 25px;
+}
+
+
+
+.destination__arrow-next {
+
+	background: url(../image/arrow-next.svg) ;
+	display: block;
+	width: 68px;
+	height: 17px;
+	margin-top: 48px;
+	}
+
+.destination__arrow-next:hover {
+
+ opacity: 0.5;
+transition: all 0.5s ease;
+
+}
+
+
+
+
+.routes-btn {
+
+font-weight: 800;
+font-size: 16px;
+text-align: center;
+letter-spacing: 0.05em;
+color: #23CF7D;
+border: 1px solid #23CF7D;
+border-radius: 94px; 
+display: block;
+padding: 18px  18px;
+width: 332px;
+margin: 0 auto;
+}
+
+.container_full-height {
+
+height: 100%;
+align-items: center;
+width: 1140px;
+
+}
+
+
+.story-content  {
+
+	background: url(../image/losang.png) no-repeat right /50%;
+}
+
+
+.guide-title {
+
+font-size: 30px;
+text-align: center;
+padding: 143px 0px 0px;
+
+}
+
+
+
+.story-content__list {
+	padding: 200px 0px;
+
+	
+}
+
+
+.story-content__item {
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.05em;
+width: 407px;
+position: relative;
+padding-top: 22px;
+margin-bottom:53px;
+}
+
+.story-content__item:before {
+content: '';
+display:block;
+height:7px;
+width: 65px;
+border-radius: 23px;
+background: #4EB1B6;
+position: absolute;
+top: 0;
+
+
+}
+
+.footer-content {
+	display: flex;
+	padding:0px 0px 165px;
+}
+
+.footer__text {
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+letter-spacing: 0.05em;
+
+color: #5C7677;
+margin-right: 60px;
+
+}
